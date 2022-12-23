@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--Propriétés : -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--CDN Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--CDN Fontawesome (online)-->
+    <script src="https://kit.fontawesome.com/8b4000456f.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/image/origami-fox.png" type="image/x-icon">
+
+    <!--Titre de l'onglet page-->
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <header id="home">
+        <!-- Menu (avec ancres)-->
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#home" target="_self">Accueil</a>
+                </li>
+                <li>
+                    <a href="#project" target="_self">Projets</a>
+                </li>
+                <li>
+                    <a href="#techno" target="_self">Technologies</a>
+                </li>
+                <li>
+                    <a href="#contact" target="_self">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Présentation-->
+        <h1 class="title">Bienvenue</h1>
+        <p class="intro text-justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur soluta minima natus a ex! Doloremque vitae quo excepturi quasi deleniti eligendi eveniet omnis nemo possimus fugit exercitationem rerum, velit itaque?
+        </p>
+        
+    </header>
+
+    <!--Contenu principal-->
+    <main>
+        <section id="project">
+
+            <h2 class="title">Projets</h2>
+
+            <!--Image et texte d'illustration-->
+            <div class="project">
+                <img src="assets/image/origami-fox.png" alt="photo d'illustration" class="photo">
+                <p class="text-justify paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis reiciendis expedita ea eligendi, temporibus nisi? Facilis voluptatum officia facere hic cumque officiis, ex, nisi omnis nesciunt soluta temporibus quos excepturi.
+                    Delectus sed velit labore necessitatibus tenetur exercitationem expedita adipisci dolorem culpa sunt deleniti sit totam ipsa, excepturi fugit voluptatem a ea maiores veritatis quaerat fugiat? Dolorem vero similique ullam magnam!
+                </p>
+            </div>
+
+            <!--Texte et photo d'illustration-->
+            <div class="project">
+                <p class="text-justify paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur voluptate, beatae cum nesciunt ut vitae, labore eveniet mollitia aut iusto maxime voluptas aliquid iure, harum libero fugiat. Ipsam, accusamus veritatis.
+                </p>
+                <img src="https://i.redd.it/7wtkfmn88wp41.jpg" alt="photo d'illustration" class="photo">
+            </div>
+
+            <!--Plus de projets :
+                paragraphe caché qui apparaît quand on clique sur le bouton (si pas de nouveaux projets)-->
+            <div>
+                <dl>
+                    <dt>
+                        <button type="button" class="btn">
+                            Voir plus de Projets
+                        </button>
+                    </dt>
+
+                    <dd>
+                        <p class="text-center paragraph paragraph-hidden">
+                            Désolé, pas de nouveaux projets pour le moment.
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+
+        <!--Slider/caroussel horizontal montrant les différentes technos et/ou logiciels utilisés (logo sur fond blanc)-->
+        <section id="techno">
+            <h2 class="title">Technologies</h2>
+
+            <div class="caroussel">
+                <div class="caroussel-container">
+                    <div class="caroussel-item slider1">
+                        <img src="assets/image/illustrator-logo.png" alt="logo de Illustrator Adobe" class="logo">
+                    </div>
+
+                    <div class="caroussel-item slider2">
+                        <img src="assets/image/indesign-logo.png" alt="logo de Indesign Adobe" class="logo">
+                    </div>
+
+                    <div class="caroussel-item slider3">
+                        <img src="assets/image/photoshop-logo.png" alt="logo de Photoshop Adobe" class="logo">
+                    </div>
+
+                    <div class="caroussel-item slider4">
+                        <img src="assets/image/figma-logo.png" alt="logo de Figma" class="logo">
+                    </div>
+
+                    <div class="caroussel-item slider5">
+                        <img src="assets/image/html-logo.png" alt="logo de HTML5" class="logo">
+                    </div>
+
+                    <div class="caroussel-item slider6">
+                        <img src="assets/image/css-logo.png" alt="logo de CSS3" class="logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Bouton "retour en haut"-->
+    <a href="#home">
+        <i class="fa-solid fa-circle-arrow-up fa-4x fa-bounce icon-up"></i>
+    </a>
+
+    <!--footer-->
+    <footer id="contact">
+    
+        <h2 class="title">Contact</h2>
+
+        <!-- Réseaux sociaux-->
+        <ul>
+            <!--linkedin profil-->
+            <li>
+                <a href="https://fr.linkedin.com/in/magali-k-moreau">
+                    <i class="fa-brands fa-linkedin fa-3x" title="Linkedin"></i>
+                </a>
+            </li>
+
+            <!--GitHub profil-->
+            <li>
+                <a href="https://github.com/MikaOcko">
+                    <i class="fa-brands fa-square-github fa-3x" title="Github"></i>
+                </a>
+            </li>
+
+            <!--Téléchargement CV-->
+            <li>
+                <a href="/assets/document/cv.pdf" download="Magali Kimberly Moreau-CV" title="Télécharger mon CV">
+                    <i class="fa-solid fa-file-arrow-down fa-3x fa-shake icon-download"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
