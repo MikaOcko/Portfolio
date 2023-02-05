@@ -469,6 +469,11 @@ dl:active dd{
     p {
         font-size: 13px;
     }
+
+    .icon-up{
+        margin-right: 5px;
+        margin-top: -55px;
+    }
 }
 
 @media only screen  and (max-width: 360px){
