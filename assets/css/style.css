@@ -84,7 +84,7 @@ a:visited{
 .title{
     font-family: 'Bodoni Moda', serif;
     font-size: 32px;
-    margin: 15px 0;
+    margin: 20px 0;
     padding-top: 35px;
 }
 
@@ -398,14 +398,14 @@ dl:active dd{
     left:0;
 }
 
-
-/*Format smartphone*/
+/* ************ Responsive ********** */
+/* ****** Format smartphone ***** */
 
 @media only screen and (max-width: 760px) {
 
     /*Style*/
     header{
-        height: 25vh;
+        height: 30vh;
         padding: 0 1rem;
     }
 
@@ -458,11 +458,10 @@ dl:active dd{
 
 }
 
-/*Format intermédiaire*/
+/* ***** Format intermédiaire ***** */
 @media only screen and (max-width: 1040px) {
     .intro{
         margin-right: 0;
-        font-size: 16px;
     }
 }
 
@@ -471,4 +470,29 @@ dl:active dd{
         font-size: 13px;
     }
 }
+
+@media only screen  and (max-width: 360px){
+    .intro{
+        font-size: 12px;
+    }
+}
+
+@media only screen  and (max-width: 420px){
+   .intro {
+    font-size: 11px;
+   }
+    
+   footer {
+    display: block;
+   }
+
+   footer > .title{
+    padding-top: 0px;
+   }
+
+   ul{
+    text-align: center;
+   }
+}
+
 
