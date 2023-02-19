@@ -71,6 +71,11 @@ a:visited{
     color: black;
 }
 
+a:hover{
+    background-color: #fad900;
+    border-radius: 20px;
+}
+
 /*Texte*/
 
 .text-justify{
@@ -409,6 +414,10 @@ dl:active dd{
         padding: 0 1rem;
     }
 
+    header .title{
+        padding-top: 0;
+    }
+
     main{
         margin: 0;
     }
@@ -466,9 +475,11 @@ dl:active dd{
 }
 
 @media only screen  and (max-width: 520px){
-    p {
+    
+
+    /* p {
         font-size: 13px;
-    }
+    } */
 
     .icon-up{
         margin-right: 5px;
@@ -476,15 +487,10 @@ dl:active dd{
     }
 }
 
-@media only screen  and (max-width: 360px){
-    .intro{
-        font-size: 12px;
-    }
-}
-
 @media only screen  and (max-width: 420px){
-   .intro {
-    font-size: 11px;
+    
+   p {
+    font-size: 13px;
    }
     
    footer {
